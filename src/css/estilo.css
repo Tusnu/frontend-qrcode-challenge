@@ -1,0 +1,63 @@
+html {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 30px;
+    max-width: auto;
+    background-image: url("/src/imagens/tela-branca-em-cores.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding: 15px;
+    font-family: 'Outfit', sans-serif;
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    width: 100%;
+    min-height: 95vh;
+    place-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    width: min-content;
+    height: min-content;
+}
+
+main img {
+    max-height: 200px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 15px;
+    -webkit-text-fill-color: hsl(218, 44%, 22%);
+    padding: 5px;
+    font-weight: 700;
+}
+
+p {
+    font-size: 15px;
+    -webkit-text-fill-color: hsl(220, 15%, 55%);
+    padding: 5px;
+    font-weight: 400;
+}
+
+footer {
+    text-align: center;
+    width: 250px;
+    font-size: 15px;
+}
